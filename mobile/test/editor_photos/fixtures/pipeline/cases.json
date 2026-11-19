@@ -1,0 +1,3986 @@
+{
+ "version": 1,
+ "source": {
+  "file": "source.bin",
+  "width": 72,
+  "height": 48
+ },
+ "masks": {
+  "width": 36,
+  "height": 24,
+  "sky": "mask-sky.bin",
+  "subject": "mask-subject.bin",
+  "depth": "mask-depth.bin",
+  "faces": [
+   {
+    "x": 0.2222222222222222,
+    "y": 0.7291666666666666,
+    "w": 0.16666666666666666,
+    "h": 0.25,
+    "score": 0.93
+   },
+   {
+    "x": 0.8,
+    "y": 0.05,
+    "w": 0.12,
+    "h": 0.15
+   }
+  ]
+ },
+ "cases": [
+  {
+   "name": "identity",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "identity.bin",
+   "rgba8": "identity.rgba8",
+   "rgb8": "identity.rgb8"
+  },
+  {
+   "name": "tone up",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0.4,
+     "contrast": 0.5,
+     "whitePoint": 0.3,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": -0.3,
+     "saturation": 0,
+     "warmth": 0.5,
+     "tint": -0.4,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tone-up.bin",
+   "rgba8": "tone-up.rgba8",
+   "rgb8": "tone-up.rgb8"
+  },
+  {
+   "name": "tone down",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0.3,
+     "brightness": -0.5,
+     "contrast": -0.6,
+     "whitePoint": -0.4,
+     "highlights": 0.6,
+     "shadows": -0.6,
+     "blackPoint": 0.4,
+     "saturation": 0,
+     "warmth": -0.6,
+     "tint": 0.5,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tone-down.bin"
+  },
+  {
+   "name": "local tone",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0.9,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": -0.7,
+     "shadows": 0.8,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "local-tone.bin"
+  },
+  {
+   "name": "pop and vignette",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0.1,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": -0.5,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0.7,
+     "blueTone": -0.6,
+     "pop": 0.9,
+     "vignette": 0.7
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "pop-and-vignette.bin"
+  },
+  {
+   "name": "colour",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0.6,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": -0.8,
+     "blueTone": 0.9,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "colour.bin"
+  },
+  {
+   "name": "filter golden",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "golden",
+     "strength": 0.7
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "filter-golden.bin"
+  },
+  {
+   "name": "filter mono contrast",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "mono-contrast",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "filter-mono-contrast.bin"
+  },
+  {
+   "name": "filter learned sepia",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0.1,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "learned-sepia",
+     "strength": 0.8
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "filter-learned-sepia.bin"
+  },
+  {
+   "name": "filter neon",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "neon",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "filter-neon.bin"
+  },
+  {
+   "name": "geometry",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 1,
+     "angle": 7.5,
+     "aspect": "4:3",
+     "crop": {
+      "cx": 0.45,
+      "cy": 0.55,
+      "w": 0.7,
+      "h": 0.6
+     }
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0.2,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 34,
+   "height": 43,
+   "file": "geometry.bin"
+  },
+  {
+   "name": "geometry straighten",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 3,
+     "angle": -12,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": 1500,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 32,
+   "height": 47,
+   "file": "geometry-straighten.bin"
+  },
+  {
+   "name": "tiny crop",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": {
+      "cx": 0.3,
+      "cy": 0.4,
+      "w": 0.06,
+      "h": 0.08
+     }
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0.5,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0.5,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 1,
+      "focus": {
+       "x": 0,
+       "y": 0
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0.5,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0.5,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 4,
+   "height": 4,
+   "file": "tiny-crop.bin",
+   "faces": []
+  },
+  {
+   "name": "geometry halved preview",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 2,
+     "angle": 3,
+     "aspect": "free",
+     "crop": {
+      "cx": 0.5,
+      "cy": 0.5,
+      "w": 0.9,
+      "h": 0.8
+     }
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0.2,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": 300,
+   "sourceWidth": 144,
+   "sourceHeight": 96,
+   "width": 22,
+   "height": 13,
+   "file": "geometry-halved-preview.bin"
+  },
+  {
+   "name": "advanced exposure clarity dehaze levels curves",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0.8,
+     "clarity": 0.7,
+     "dehaze": 0.6,
+     "levels": {
+      "inBlack": 0.05,
+      "inWhite": 0.9,
+      "gamma": 1.3,
+      "outBlack": 0.03,
+      "outWhite": 0.97
+     },
+     "curves": {
+      "rgb": [
+       [
+        0.25,
+        0.18
+       ],
+       [
+        0.75,
+        0.85
+       ]
+      ],
+      "r": [
+       [
+        0,
+        0.05
+       ],
+       [
+        0.5,
+        0.56
+       ]
+      ],
+      "g": [
+       [
+        0.4,
+        0.35
+       ],
+       [
+        1,
+        0.95
+       ]
+      ],
+      "b": [
+       [
+        0.3,
+        0.4
+       ],
+       [
+        0.6,
+        0.6
+       ],
+       [
+        0.9,
+        0.8
+       ]
+      ]
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "advanced-exposure-clarity-dehaze-levels-curves.bin"
+  },
+  {
+   "name": "advanced negative clarity dehaze hsl grading",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": -1.2,
+     "clarity": -0.5,
+     "dehaze": -0.7,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0.3,
+       "s": 0.5,
+       "l": -0.2
+      },
+      "orange": {
+       "h": 0,
+       "s": -0.4,
+       "l": 0.3
+      },
+      "yellow": {
+       "h": -0.5,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0.4,
+       "s": 0.6,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": -0.5
+      },
+      "blue": {
+       "h": -0.3,
+       "s": 0.8,
+       "l": -0.3
+      },
+      "purple": {
+       "h": 0,
+       "s": -1,
+       "l": 0
+      },
+      "magenta": {
+       "h": 1,
+       "s": 0,
+       "l": 0.4
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0.6
+      },
+      "midtones": {
+       "hue": 90,
+       "sat": 0.3
+      },
+      "highlights": {
+       "hue": 35,
+       "sat": 0.8
+      },
+      "balance": 0.3,
+      "blending": 0.7
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "advanced-negative-clarity-dehaze-hsl-grading.bin"
+  },
+  {
+   "name": "advanced finish",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0.8,
+      "radius": 2
+     },
+     "noise": 0.7,
+     "grain": 0.6,
+     "vignette": {
+      "amount": 0.8,
+      "midpoint": 0.3,
+      "roundness": 0.5,
+      "feather": 0.4
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "advanced-finish.bin"
+  },
+  {
+   "name": "advanced finish inverse vignette",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0.4,
+      "radius": 0.5
+     },
+     "noise": 0,
+     "grain": 1,
+     "vignette": {
+      "amount": -0.6,
+      "midpoint": 0.7,
+      "roundness": -0.8,
+      "feather": 0.1
+     }
+    }
+   },
+   "masks": false,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "advanced-finish-inverse-vignette.bin",
+   "rgba8": "advanced-finish-inverse-vignette.rgba8",
+   "rgb8": "advanced-finish-inverse-vignette.rgb8"
+  },
+  {
+   "name": "tool sky vivid",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0.8
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tool-sky-vivid.bin",
+   "faces": [
+    {
+     "x": 0.21527777777777773,
+     "y": 0.71875,
+     "w": 0.16666666666666666,
+     "h": 0.25,
+     "score": 0.93
+    },
+    {
+     "x": 0.7930555555555556,
+     "y": 0.024583333333333318,
+     "w": 0.12000000000000001,
+     "h": 0.18000000000000002
+    }
+   ]
+  },
+  {
+   "name": "tool sky ember",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "ember",
+      "strength": 1
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tool-sky-ember.bin",
+   "faces": [
+    {
+     "x": 0.21527777777777773,
+     "y": 0.71875,
+     "w": 0.16666666666666666,
+     "h": 0.25,
+     "score": 0.93
+    },
+    {
+     "x": 0.7930555555555556,
+     "y": 0.024583333333333318,
+     "w": 0.12000000000000001,
+     "h": 0.18000000000000002
+    }
+   ]
+  },
+  {
+   "name": "tool color focus",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0.9
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tool-color-focus.bin",
+   "faces": [
+    {
+     "x": 0.21527777777777773,
+     "y": 0.71875,
+     "w": 0.16666666666666666,
+     "h": 0.25,
+     "score": 0.93
+    },
+    {
+     "x": 0.7930555555555556,
+     "y": 0.024583333333333318,
+     "w": 0.12000000000000001,
+     "h": 0.18000000000000002
+    }
+   ]
+  },
+  {
+   "name": "tool portrait light",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.2,
+      "y": 0.7,
+      "strength": 0.8
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tool-portrait-light.bin",
+   "faces": [
+    {
+     "x": 0.21527777777777773,
+     "y": 0.71875,
+     "w": 0.16666666666666666,
+     "h": 0.25,
+     "score": 0.93
+    },
+    {
+     "x": 0.7930555555555556,
+     "y": 0.024583333333333318,
+     "w": 0.12000000000000001,
+     "h": 0.18000000000000002
+    }
+   ]
+  },
+  {
+   "name": "tool blur",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 0,
+     "angle": 0,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "vivid",
+      "strength": 0
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0
+     },
+     "blur": {
+      "strength": 1,
+      "focus": {
+       "x": 0.3,
+       "y": 0.85
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 72,
+   "height": 48,
+   "file": "tool-blur.bin",
+   "faces": [
+    {
+     "x": 0.21527777777777773,
+     "y": 0.71875,
+     "w": 0.16666666666666666,
+     "h": 0.25,
+     "score": 0.93
+    },
+    {
+     "x": 0.7930555555555556,
+     "y": 0.024583333333333318,
+     "w": 0.12000000000000001,
+     "h": 0.18000000000000002
+    }
+   ]
+  },
+  {
+   "name": "tools with geometry",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 1,
+     "angle": 5,
+     "aspect": "free",
+     "crop": {
+      "cx": 0.5,
+      "cy": 0.6,
+      "w": 0.8,
+      "h": 0.75
+     }
+    },
+    "adjust": {
+     "hdr": 0,
+     "brightness": 0,
+     "contrast": 0,
+     "whitePoint": 0,
+     "highlights": 0,
+     "shadows": 0,
+     "blackPoint": 0,
+     "saturation": 0,
+     "warmth": 0,
+     "tint": 0,
+     "skinTone": 0,
+     "blueTone": 0,
+     "pop": 0,
+     "vignette": 0
+    },
+    "filter": {
+     "id": "none",
+     "strength": 1
+    },
+    "tools": {
+     "sky": {
+      "palette": "radiant",
+      "strength": 0.7
+     },
+     "colorFocus": {
+      "strength": 0.4
+     },
+     "portraitLight": {
+      "x": 0.6,
+      "y": 0.2,
+      "strength": 1
+     },
+     "blur": {
+      "strength": 0.6,
+      "focus": {
+       "x": 0.4,
+       "y": 0.4
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0,
+     "clarity": 0,
+     "dehaze": 0,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 40,
+       "sat": 0
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0,
+      "radius": 1
+     },
+     "noise": 0,
+     "grain": 0,
+     "vignette": {
+      "amount": 0,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 38,
+   "height": 54,
+   "file": "tools-with-geometry.bin",
+   "faces": [
+    {
+     "x": -0.06313457183865849,
+     "y": -0.038326729989108535,
+     "w": 0.31414043121877117,
+     "h": 0.22106178493172784,
+     "score": 0.93
+    },
+    {
+     "x": 0.7982293901654154,
+     "y": 0.7855579077530069,
+     "w": 0.2261811104775152,
+     "h": 0.15916448515084405
+    }
+   ]
+  },
+  {
+   "name": "kitchen sink",
+   "recipe": {
+    "v": 1,
+    "source": {
+     "kind": "jpeg"
+    },
+    "geometry": {
+     "rotate90": 2,
+     "angle": -4,
+     "aspect": "free",
+     "crop": null
+    },
+    "adjust": {
+     "hdr": 0.4,
+     "brightness": 0.15,
+     "contrast": 0.3,
+     "whitePoint": 0.1,
+     "highlights": -0.3,
+     "shadows": 0.4,
+     "blackPoint": 0.1,
+     "saturation": 0.3,
+     "warmth": 0.2,
+     "tint": -0.1,
+     "skinTone": 0.3,
+     "blueTone": 0.3,
+     "pop": 0.4,
+     "vignette": 0.3
+    },
+    "filter": {
+     "id": "teal",
+     "strength": 0.5
+    },
+    "tools": {
+     "sky": {
+      "palette": "airy",
+      "strength": 0.5
+     },
+     "colorFocus": {
+      "strength": 0
+     },
+     "portraitLight": {
+      "x": 0.3,
+      "y": 0.25,
+      "strength": 0.5
+     },
+     "blur": {
+      "strength": 0,
+      "focus": {
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    "advanced": {
+     "exposure": 0.2,
+     "clarity": 0.3,
+     "dehaze": 0.2,
+     "levels": {
+      "inBlack": 0,
+      "inWhite": 1,
+      "gamma": 1,
+      "outBlack": 0,
+      "outWhite": 1
+     },
+     "curves": {
+      "rgb": [
+       [
+        0.5,
+        0.55
+       ]
+      ],
+      "r": [],
+      "g": [],
+      "b": []
+     },
+     "hsl": {
+      "red": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "orange": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "yellow": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "green": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "aqua": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "blue": {
+       "h": 0,
+       "s": 0.3,
+       "l": 0
+      },
+      "purple": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      },
+      "magenta": {
+       "h": 0,
+       "s": 0,
+       "l": 0
+      }
+     },
+     "grading": {
+      "shadows": {
+       "hue": 200,
+       "sat": 0
+      },
+      "midtones": {
+       "hue": 30,
+       "sat": 0
+      },
+      "highlights": {
+       "hue": 50,
+       "sat": 0.4
+      },
+      "balance": 0,
+      "blending": 0.5
+     },
+     "sharpen": {
+      "amount": 0.3,
+      "radius": 1
+     },
+     "noise": 0.2,
+     "grain": 0.2,
+     "vignette": {
+      "amount": 0.3,
+      "midpoint": 0.5,
+      "roundness": 0,
+      "feather": 0.5
+     }
+    }
+   },
+   "masks": true,
+   "maxPixels": null,
+   "sourceWidth": null,
+   "sourceHeight": null,
+   "width": 65,
+   "height": 44,
+   "file": "kitchen-sink.bin",
+   "faces": [
+    {
+     "x": 0.5953947957538198,
+     "y": -0.059926844782663344,
+     "w": 0.1851074753179113,
+     "h": 0.2734542249014599,
+     "score": 0.93
+    },
+    {
+     "x": 0.049065386291508625,
+     "y": 0.8440287096247828,
+     "w": 0.13327738222889618,
+     "h": 0.19688704192905115
+    }
+   ],
+   "rgba8": "kitchen-sink.rgba8",
+   "rgb8": "kitchen-sink.rgb8"
+  }
+ ]
+}

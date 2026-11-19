@@ -1,0 +1,1350 @@
+[
+ {
+  "name": "empty object",
+  "input": {},
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "null",
+  "input": null,
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "array",
+  "input": [
+   1,
+   2,
+   3
+  ],
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "string",
+  "input": "vivid",
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "number",
+  "input": 42,
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "default recipe",
+  "input": {
+   "v": 1,
+   "source": {
+    "kind": "jpeg"
+   },
+   "geometry": {
+    "rotate90": 0,
+    "angle": 0,
+    "aspect": "free",
+    "crop": null
+   },
+   "adjust": {
+    "hdr": 0,
+    "brightness": 0,
+    "contrast": 0,
+    "whitePoint": 0,
+    "highlights": 0,
+    "shadows": 0,
+    "blackPoint": 0,
+    "saturation": 0,
+    "warmth": 0,
+    "tint": 0,
+    "skinTone": 0,
+    "blueTone": 0,
+    "pop": 0,
+    "vignette": 0
+   },
+   "filter": {
+    "id": "none",
+    "strength": 1
+   },
+   "advanced": {
+    "exposure": 0,
+    "clarity": 0,
+    "dehaze": 0,
+    "levels": {
+     "inBlack": 0,
+     "inWhite": 1,
+     "gamma": 1,
+     "outBlack": 0,
+     "outWhite": 1
+    },
+    "curves": {
+     "rgb": [],
+     "r": [],
+     "g": [],
+     "b": []
+    },
+    "hsl": {
+     "red": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "orange": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "yellow": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "green": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "aqua": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "blue": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "purple": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     },
+     "magenta": {
+      "h": 0,
+      "s": 0,
+      "l": 0
+     }
+    },
+    "grading": {
+     "shadows": {
+      "hue": 200,
+      "sat": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "sat": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "sat": 0
+     },
+     "balance": 0,
+     "blending": 0.5
+    },
+    "sharpen": {
+     "amount": 0,
+     "radius": 1
+    },
+    "noise": 0,
+    "grain": 0,
+    "vignette": {
+     "amount": 0,
+     "midpoint": 0.5,
+     "roundness": 0,
+     "feather": 0.5
+    }
+   },
+   "tools": {
+    "sky": {
+     "palette": "vivid",
+     "strength": 0
+    },
+    "colorFocus": {
+     "strength": 0
+    },
+    "portraitLight": {
+     "x": 0.3,
+     "y": 0.25,
+     "strength": 0
+    },
+    "blur": {
+     "strength": 0,
+     "focus": {
+      "x": 0.5,
+      "y": 0.5
+     }
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "clamped and unknown values dropped",
+  "input": {
+   "adjust": {
+    "contrast": 5,
+    "pop": -1,
+    "nonsense": 3
+   },
+   "geometry": {
+    "angle": 90,
+    "rotate90": -1,
+    "aspect": "weird"
+   },
+   "filter": {
+    "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":3,\"angle\":45,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":1,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +45°, Rotate 270°, Contrast +1.00",
+  "describeIds": "Straighten +45°, Rotate 270°, Contrast +1.00",
+  "isIdentity": false
+ },
+ {
+  "name": "adjust strings",
+  "input": {
+   "adjust": {
+    "brightness": "0.5",
+    "contrast": " -0.25 ",
+    "saturation": "abc",
+    "warmth": "",
+    "tint": "0x10",
+    "hdr": "1e-1",
+    "shadows": "Infinity",
+    "highlights": "-Infinity",
+    "skinTone": "\n\t0.3 ",
+    "blueTone": ".5",
+    "pop": "5.",
+    "vignette": "+.25"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0.1,\"brightness\":0.5,\"contrast\":-0.25,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":1,\"skinTone\":0.3,\"blueTone\":0.5,\"pop\":1,\"vignette\":0.25},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "HDR effect +0.10, Brightness +0.50, Contrast −0.25, Tint +1.00, Skin Tone +0.30, Blue Tone +0.50, Pop +1.00, Vignette +0.25",
+  "describeIds": "HDR effect +0.10, Brightness +0.50, Contrast −0.25, Tint +1.00, Skin Tone +0.30, Blue Tone +0.50, Pop +1.00, Vignette +0.25",
+  "isIdentity": false
+ },
+ {
+  "name": "adjust exotic number strings",
+  "input": {
+   "adjust": {
+    "brightness": "0b1",
+    "contrast": "0o7",
+    "saturation": "-0x1",
+    "warmth": "1_0",
+    "tint": "NaN",
+    "skinTone": "0.5",
+    "blueTone": "0x",
+    "hdr": "0X0",
+    "pop": "1.e-1",
+    "vignette": "﻿.75 "
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":1,\"contrast\":1,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0.1,\"vignette\":0.75},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Brightness +1.00, Contrast +1.00, Pop +0.10, Vignette +0.75",
+  "describeIds": "Brightness +1.00, Contrast +1.00, Pop +0.10, Vignette +0.75",
+  "isIdentity": false
+ },
+ {
+  "name": "adjust booleans and null",
+  "input": {
+   "adjust": {
+    "brightness": true,
+    "contrast": false,
+    "saturation": null,
+    "pop": true,
+    "vignette": false
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":1,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":1,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Brightness +1.00, Pop +1.00",
+  "describeIds": "Brightness +1.00, Pop +1.00",
+  "isIdentity": false
+ },
+ {
+  "name": "adjust arrays",
+  "input": {
+   "adjust": {
+    "brightness": [
+     0.5
+    ],
+    "contrast": [
+     "0.3"
+    ],
+    "saturation": [],
+    "warmth": [
+     1,
+     2
+    ],
+    "tint": [
+     [
+      -0.2
+     ]
+    ],
+    "pop": [
+     null
+    ],
+    "hdr": [
+     []
+    ],
+    "vignette": [
+     true
+    ],
+    "skinTone": [
+     {}
+    ]
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0.5,\"contrast\":0.3,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":-0.2,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Brightness +0.50, Contrast +0.30, Tint −0.20",
+  "describeIds": "Brightness +0.50, Contrast +0.30, Tint −0.20",
+  "isIdentity": false
+ },
+ {
+  "name": "adjust objects and strings as containers",
+  "input": {
+   "adjust": "brightness",
+   "geometry": "rotate",
+   "filter": [
+    "vivid"
+   ],
+   "tools": 7,
+   "advanced": "curves"
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "rounding halves",
+  "input": {
+   "adjust": {
+    "brightness": 0.125,
+    "contrast": -0.125,
+    "saturation": 0.005,
+    "warmth": -0.005,
+    "tint": 0.015,
+    "skinTone": -0.015,
+    "blueTone": 0.285,
+    "pop": 0.335,
+    "hdr": 0.145,
+    "vignette": 0.995,
+    "shadows": 1.005,
+    "highlights": -0.555
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0.14,\"brightness\":0.13,\"contrast\":-0.12,\"whitePoint\":0,\"highlights\":-0.56,\"shadows\":1,\"blackPoint\":0,\"saturation\":0.01,\"warmth\":0,\"tint\":0.02,\"skinTone\":-0.01,\"blueTone\":0.28,\"pop\":0.34,\"vignette\":1},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "HDR effect +0.14, Brightness +0.13, Contrast −0.12, Highlights −0.56, Shadow +1.00, Saturation +0.01, Tint +0.02, Skin Tone −0.01, Blue Tone +0.28, Pop +0.34, Vignette +1.00",
+  "describeIds": "HDR effect +0.14, Brightness +0.13, Contrast −0.12, Highlights −0.56, Shadow +1.00, Saturation +0.01, Tint +0.02, Skin Tone −0.01, Blue Tone +0.28, Pop +0.34, Vignette +1.00",
+  "isIdentity": false
+ },
+ {
+  "name": "crop rounding",
+  "input": {
+   "geometry": {
+    "crop": {
+     "cx": 0.123456789,
+     "cy": 0.987654321,
+     "w": 0.333333333,
+     "h": 0.666666666
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0.12346,\"cy\":0.98765,\"w\":0.33333,\"h\":0.66667}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Crop",
+  "describeIds": "Crop",
+  "isIdentity": false
+ },
+ {
+  "name": "crop out of range",
+  "input": {
+   "geometry": {
+    "crop": {
+     "cx": -1,
+     "cy": 5,
+     "w": 0,
+     "h": 2
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0,\"cy\":1,\"w\":0.01,\"h\":1}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Crop",
+  "describeIds": "Crop",
+  "isIdentity": false
+ },
+ {
+  "name": "crop empty object",
+  "input": {
+   "geometry": {
+    "crop": {}
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0.5,\"cy\":0.5,\"w\":1,\"h\":1}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "crop array",
+  "input": {
+   "geometry": {
+    "crop": [
+     0.5,
+     0.5,
+     0.2,
+     0.2
+    ]
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0.5,\"cy\":0.5,\"w\":1,\"h\":1}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "crop non-object",
+  "input": {
+   "geometry": {
+    "crop": "full",
+    "angle": "3.5"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":3.5,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +3.5°",
+  "describeIds": "Straighten +3.5°",
+  "isIdentity": false
+ },
+ {
+  "name": "crop null and string fields",
+  "input": {
+   "geometry": {
+    "crop": {
+     "cx": null,
+     "cy": "0.25",
+     "w": "",
+     "h": "0.5"
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0,\"cy\":0.25,\"w\":0.01,\"h\":0.5}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Crop",
+  "describeIds": "Crop",
+  "isIdentity": false
+ },
+ {
+  "name": "crop full frame off-centre",
+  "input": {
+   "geometry": {
+    "crop": {
+     "cx": 0.3,
+     "cy": 0.7,
+     "w": 1,
+     "h": 1
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0.3,\"cy\":0.7,\"w\":1,\"h\":1}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "crop nearly full",
+  "input": {
+   "geometry": {
+    "crop": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "w": 0.9995,
+     "h": 0.99949
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":{\"cx\":0.5,\"cy\":0.5,\"w\":0.9995,\"h\":0.99949}},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": false
+ },
+ {
+  "name": "rotate90 values",
+  "input": {
+   "geometry": {
+    "rotate90": 5,
+    "angle": 12.345,
+    "aspect": "16:9"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":1,\"angle\":12.35,\"aspect\":\"16:9\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +12.35°, Rotate 90°",
+  "describeIds": "Straighten +12.35°, Rotate 90°",
+  "isIdentity": false
+ },
+ {
+  "name": "rotate90 negative half",
+  "input": {
+   "geometry": {
+    "rotate90": -2.5,
+    "angle": -0.005,
+    "aspect": "original"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":2,\"angle\":0,\"aspect\":\"original\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Rotate 180°",
+  "describeIds": "Rotate 180°",
+  "isIdentity": false
+ },
+ {
+  "name": "rotate90 half",
+  "input": {
+   "geometry": {
+    "rotate90": 2.5,
+    "angle": 0.005,
+    "aspect": "square"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":3,\"angle\":0.01,\"aspect\":\"square\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +0.01°, Rotate 270°",
+  "describeIds": "Straighten +0.01°, Rotate 270°",
+  "isIdentity": false
+ },
+ {
+  "name": "rotate90 string and huge angle",
+  "input": {
+   "geometry": {
+    "rotate90": "7",
+    "angle": -1e+300,
+    "aspect": "Original"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":3,\"angle\":-45,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten −45°, Rotate 270°",
+  "describeIds": "Straighten −45°, Rotate 270°",
+  "isIdentity": false
+ },
+ {
+  "name": "every aspect id",
+  "input": {
+   "geometry": {
+    "aspect": "9:16",
+    "angle": 44.999
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":45,\"aspect\":\"9:16\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +45°",
+  "describeIds": "Straighten +45°",
+  "isIdentity": false
+ },
+ {
+  "name": "filter strengths",
+  "input": {
+   "filter": {
+    "id": "mono",
+    "strength": 0.125
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"mono\",\"strength\":0.13},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Mono",
+  "describeIds": "mono",
+  "isIdentity": false
+ },
+ {
+  "name": "filter strength string",
+  "input": {
+   "filter": {
+    "id": "vivid",
+    "strength": "0.145"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"vivid\",\"strength\":0.14},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Vivid",
+  "describeIds": "vivid",
+  "isIdentity": false
+ },
+ {
+  "name": "filter unknown id",
+  "input": {
+   "filter": {
+    "id": "unknown-filter",
+    "strength": 2
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"unknown-filter\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "unknown-filter",
+  "describeIds": "unknown-filter",
+  "isIdentity": false
+ },
+ {
+  "name": "filter id 40 chars",
+  "input": {
+   "filter": {
+    "id": "ffffffffffffffffffffffffffffffffffffffff",
+    "strength": -1
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"ffffffffffffffffffffffffffffffffffffffff\",\"strength\":0},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "filter id 41 chars",
+  "input": {
+   "filter": {
+    "id": "fffffffffffffffffffffffffffffffffffffffff"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "filter id not a string",
+  "input": {
+   "filter": {
+    "id": 5,
+    "strength": null
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":0},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "filter learned",
+  "input": {
+   "filter": {
+    "id": "learned-sepia",
+    "strength": 0.5
+   },
+   "adjust": {
+    "pop": 0.2
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0.2,\"vignette\":0},\"filter\":{\"id\":\"learned-sepia\",\"strength\":0.5},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Pop +0.20, Sepia contrast",
+  "describeIds": "Pop +0.20, learned-sepia",
+  "isIdentity": false
+ },
+ {
+  "name": "filter id with escapes",
+  "input": {
+   "filter": {
+    "id": "a\"b\\c\n\u0001\u001f é😀\ud800",
+    "strength": 1
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"a\\\"b\\\\c\\n\\u0001\\u001f é😀\\ud800\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "a\"b\\c\n\u0001\u001f é😀\ud800",
+  "describeIds": "a\"b\\c\n\u0001\u001f é😀\ud800",
+  "isIdentity": false
+ },
+ {
+  "name": "raw source",
+  "input": {
+   "source": {
+    "kind": "raw",
+    "rawAssetId": "abc-123",
+    "baselineId": "base-1"
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"raw\",\"rawAssetId\":\"abc-123\",\"baselineId\":\"base-1\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "raw source without baseline",
+  "input": {
+   "source": {
+    "kind": "raw",
+    "rawAssetId": "abc-123",
+    "baselineId": 7
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"raw\",\"rawAssetId\":\"abc-123\",\"baselineId\":null},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "raw source without asset id",
+  "input": {
+   "source": {
+    "kind": "raw",
+    "rawAssetId": 5
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "jpeg source with extras",
+  "input": {
+   "source": {
+    "kind": "jpeg",
+    "rawAssetId": "x",
+    "other": true
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "tools",
+  "input": {
+   "tools": {
+    "sky": {
+     "palette": "ember",
+     "strength": 0.555
+    },
+    "colorFocus": {
+     "strength": "0.5"
+    },
+    "portraitLight": {
+     "x": 0.0005,
+     "y": 0.3335,
+     "strength": 1.5
+    },
+    "blur": {
+     "strength": 0.25,
+     "focus": {
+      "x": -1,
+      "y": 0.12345
+     }
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"ember\",\"strength\":0.56},\"colorFocus\":{\"strength\":0.5},\"portraitLight\":{\"x\":0.001,\"y\":0.334,\"strength\":1},\"blur\":{\"strength\":0.25,\"focus\":{\"x\":0,\"y\":0.123}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Sky (ember), Color focus, Portrait light, Blur",
+  "describeIds": "Sky (ember), Color focus, Portrait light, Blur",
+  "isIdentity": false
+ },
+ {
+  "name": "tools invalid",
+  "input": {
+   "tools": {
+    "sky": {
+     "palette": "VIVID",
+     "strength": -1
+    },
+    "colorFocus": 0.5,
+    "portraitLight": [],
+    "blur": {
+     "focus": "centre"
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "tools array",
+  "input": {
+   "tools": []
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "advanced scalars",
+  "input": {
+   "advanced": {
+    "exposure": 5,
+    "clarity": "0.5",
+    "dehaze": null,
+    "noise": "1",
+    "grain": true,
+    "sharpen": {
+     "amount": 2,
+     "radius": 0.1
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":3,\"clarity\":0.5,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":1,\"radius\":0.5},\"noise\":1,\"grain\":1,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "advanced levels",
+  "input": {
+   "advanced": {
+    "levels": {
+     "inBlack": 0.6,
+     "inWhite": 0.2,
+     "gamma": 10,
+     "outBlack": -1,
+     "outWhite": "0.75"
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0.5,\"inWhite\":0.5,\"gamma\":5,\"outBlack\":0,\"outWhite\":0.75},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "advanced levels null and empty",
+  "input": {
+   "advanced": {
+    "levels": {
+     "inBlack": null,
+     "inWhite": "",
+     "gamma": [],
+     "outWhite": false
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":0.5,\"gamma\":0.2,\"outBlack\":0,\"outWhite\":0.5},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "advanced levels array",
+  "input": {
+   "advanced": {
+    "levels": [
+     0.1,
+     0.9
+    ]
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "curves unsorted",
+  "input": {
+   "advanced": {
+    "curves": {
+     "rgb": [
+      [
+       0.8,
+       0.9
+      ],
+      [
+       0.2,
+       0.1
+      ],
+      [
+       0.5,
+       0.5
+      ]
+     ]
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[[0.2,0.1],[0.5,0.5],[0.8,0.9]],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "curves duplicates and too close",
+  "input": {
+   "advanced": {
+    "curves": {
+     "r": [
+      [
+       0.5,
+       0.5
+      ],
+      [
+       0.5,
+       0.6
+      ],
+      [
+       0.503,
+       0.7
+      ],
+      [
+       0.506,
+       0.2
+      ],
+      [
+       0.505,
+       0.4
+      ],
+      [
+       0.512,
+       0.3
+      ]
+     ]
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[[0.5,0.5],[0.512,0.3]],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "curves too many",
+  "input": {
+   "advanced": {
+    "curves": {
+     "g": [
+      [
+       0,
+       0
+      ],
+      [
+       0.05263157894736842,
+       0.3684210526315789
+      ],
+      [
+       0.10526315789473684,
+       0.7368421052631579
+      ],
+      [
+       0.15789473684210525,
+       0.05263157894736842
+      ],
+      [
+       0.21052631578947367,
+       0.42105263157894735
+      ],
+      [
+       0.2631578947368421,
+       0.7894736842105263
+      ],
+      [
+       0.3157894736842105,
+       0.10526315789473684
+      ],
+      [
+       0.3684210526315789,
+       0.47368421052631576
+      ],
+      [
+       0.42105263157894735,
+       0.8421052631578947
+      ],
+      [
+       0.47368421052631576,
+       0.15789473684210525
+      ],
+      [
+       0.5263157894736842,
+       0.5263157894736842
+      ],
+      [
+       0.5789473684210527,
+       0.8947368421052632
+      ],
+      [
+       0.631578947368421,
+       0.21052631578947367
+      ],
+      [
+       0.6842105263157895,
+       0.5789473684210527
+      ],
+      [
+       0.7368421052631579,
+       0.9473684210526315
+      ],
+      [
+       0.7894736842105263,
+       0.2631578947368421
+      ],
+      [
+       0.8421052631578947,
+       0.631578947368421
+      ],
+      [
+       0.8947368421052632,
+       1
+      ],
+      [
+       0.9473684210526315,
+       0.3157894736842105
+      ],
+      [
+       1,
+       0.6842105263157895
+      ]
+     ]
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[[0,0],[0.053,0.368],[0.105,0.737],[0.158,0.053],[0.211,0.421],[0.263,0.789],[0.316,0.105],[0.368,0.474],[0.421,0.842],[0.474,0.158],[0.526,0.526],[0.579,0.895],[0.632,0.211],[0.684,0.579],[0.737,0.947],[0.789,0.263]],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "curves out of range and odd points",
+  "input": {
+   "advanced": {
+    "curves": {
+     "b": [
+      [
+       -1,
+       2
+      ],
+      [
+       2,
+       -1
+      ],
+      [
+       "0.3",
+       "0.4"
+      ],
+      [
+       0.6
+      ],
+      0.7,
+      null,
+      {
+       "0": 0.45,
+       "1": 0.55
+      },
+      "57",
+      [
+       [
+        0.2
+       ],
+       [
+        0.25
+       ]
+      ]
+     ]
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[[0,1],[0.2,0.25],[0.3,0.4],[0.45,0.55],[0.6,0],[1,0]]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "curves rounding",
+  "input": {
+   "advanced": {
+    "curves": {
+     "rgb": [
+      [
+       0.0005,
+       0.9995
+      ],
+      [
+       0.1234,
+       0.5678
+      ],
+      [
+       0.505,
+       0.5
+      ],
+      [
+       0.5,
+       0.25
+      ]
+     ]
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[[0.001,1],[0.123,0.568],[0.5,0.25],[0.505,0.5]],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "curves not arrays",
+  "input": {
+   "advanced": {
+    "curves": {
+     "rgb": "abc",
+     "r": {
+      "0": [
+       0.5,
+       0.5
+      ]
+     },
+     "g": null,
+     "b": 3
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "curves as array",
+  "input": {
+   "advanced": {
+    "curves": [
+     [
+      0.5,
+      0.5
+     ]
+    ]
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "hsl",
+  "input": {
+   "advanced": {
+    "hsl": {
+     "red": {
+      "h": 2,
+      "s": -2,
+      "l": "0.5"
+     },
+     "blue": null,
+     "aqua": {
+      "h": 0.0005
+     },
+     "unknown": {
+      "h": 1
+     }
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":1,\"s\":-1,\"l\":0.5},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0.001,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "hsl array",
+  "input": {
+   "advanced": {
+    "hsl": []
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "grading",
+  "input": {
+   "advanced": {
+    "grading": {
+     "shadows": {
+      "hue": 400,
+      "sat": 2
+     },
+     "midtones": {
+      "hue": -10,
+      "sat": 0.25
+     },
+     "highlights": {
+      "hue": 180.5,
+      "sat": "0.5"
+     },
+     "balance": 2,
+     "blending": -1
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":360,\"sat\":1},\"midtones\":{\"hue\":0,\"sat\":0.25},\"highlights\":{\"hue\":181,\"sat\":0.5},\"balance\":1,\"blending\":0},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "grading null hue",
+  "input": {
+   "advanced": {
+    "grading": {
+     "shadows": {
+      "hue": null
+     },
+     "midtones": {
+      "hue": ""
+     },
+     "highlights": {
+      "hue": "x"
+     }
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":0,\"sat\":0},\"highlights\":{\"hue\":0,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "vignette",
+  "input": {
+   "advanced": {
+    "vignette": {
+     "amount": -2,
+     "midpoint": 2,
+     "roundness": -5,
+     "feather": null
+    }
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":-1,\"midpoint\":1,\"roundness\":-1,\"feather\":0.5}}}",
+  "describe": "Advanced",
+  "describeIds": "Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "advanced identity after rounding",
+  "input": {
+   "advanced": {
+    "levels": {
+     "gamma": 1.0004
+    },
+    "exposure": 0.0004
+   },
+   "filter": {
+    "id": "vivid",
+    "strength": 0
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"vivid\",\"strength\":0},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "advanced array",
+  "input": {
+   "advanced": []
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "No changes",
+  "describeIds": "No changes",
+  "isIdentity": true
+ },
+ {
+  "name": "unknown top-level keys",
+  "input": {
+   "foo": 1,
+   "v": 99,
+   "adjust": {
+    "pop": 0.3
+   },
+   "__extra": {
+    "a": 1
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0.3,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Pop +0.30",
+  "describeIds": "Pop +0.30",
+  "isIdentity": false
+ },
+ {
+  "name": "describe straighten and pop",
+  "input": {
+   "geometry": {
+    "angle": -4.7
+   },
+   "adjust": {
+    "pop": 0.2
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":-4.7,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0.2,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten −4.7°, Pop +0.20",
+  "describeIds": "Straighten −4.7°, Pop +0.20",
+  "isIdentity": false
+ },
+ {
+  "name": "describe everything",
+  "input": {
+   "geometry": {
+    "rotate90": 3,
+    "angle": 12,
+    "crop": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "w": 0.5,
+     "h": 0.75
+    }
+   },
+   "adjust": {
+    "hdr": 0.05,
+    "brightness": -0.1,
+    "contrast": 0.15,
+    "whitePoint": -0.2,
+    "highlights": 0.25,
+    "shadows": -0.3,
+    "blackPoint": 0.35,
+    "saturation": -0.4,
+    "warmth": 0.45,
+    "tint": -0.5,
+    "skinTone": 0.55,
+    "blueTone": -0.6,
+    "pop": 0.65,
+    "vignette": -0.7
+   },
+   "filter": {
+    "id": "teal",
+    "strength": 0.4
+   },
+   "tools": {
+    "sky": {
+     "palette": "stormy",
+     "strength": 0.1
+    },
+    "colorFocus": {
+     "strength": 0.2
+    },
+    "portraitLight": {
+     "strength": 0.3
+    },
+    "blur": {
+     "strength": 0.4
+    }
+   },
+   "advanced": {
+    "grain": 0.1
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":3,\"angle\":12,\"aspect\":\"free\",\"crop\":{\"cx\":0.5,\"cy\":0.5,\"w\":0.5,\"h\":0.75}},\"adjust\":{\"hdr\":0.05,\"brightness\":-0.1,\"contrast\":0.15,\"whitePoint\":-0.2,\"highlights\":0.25,\"shadows\":-0.3,\"blackPoint\":0.35,\"saturation\":-0.4,\"warmth\":0.45,\"tint\":-0.5,\"skinTone\":0.55,\"blueTone\":-0.6,\"pop\":0.65,\"vignette\":0},\"filter\":{\"id\":\"teal\",\"strength\":0.4},\"tools\":{\"sky\":{\"palette\":\"stormy\",\"strength\":0.1},\"colorFocus\":{\"strength\":0.2},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0.3},\"blur\":{\"strength\":0.4,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0.1,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +12°, Rotate 270°, Crop, HDR effect +0.05, Brightness −0.10, Contrast +0.15, White Point −0.20, Highlights +0.25, Shadow −0.30, Black Point +0.35, Saturation −0.40, Warmth +0.45, Tint −0.50, Skin Tone +0.55, Blue Tone −0.60, Pop +0.65, Teal & Orange, Sky (stormy), Color focus, Portrait light, Blur, Advanced",
+  "describeIds": "Straighten +12°, Rotate 270°, Crop, HDR effect +0.05, Brightness −0.10, Contrast +0.15, White Point −0.20, Highlights +0.25, Shadow −0.30, Black Point +0.35, Saturation −0.40, Warmth +0.45, Tint −0.50, Skin Tone +0.55, Blue Tone −0.60, Pop +0.65, teal, Sky (stormy), Color focus, Portrait light, Blur, Advanced",
+  "isIdentity": false
+ },
+ {
+  "name": "describe angle fraction",
+  "input": {
+   "geometry": {
+    "angle": 0.1
+   }
+  },
+  "normalized": "{\"v\":1,\"source\":{\"kind\":\"jpeg\"},\"geometry\":{\"rotate90\":0,\"angle\":0.1,\"aspect\":\"free\",\"crop\":null},\"adjust\":{\"hdr\":0,\"brightness\":0,\"contrast\":0,\"whitePoint\":0,\"highlights\":0,\"shadows\":0,\"blackPoint\":0,\"saturation\":0,\"warmth\":0,\"tint\":0,\"skinTone\":0,\"blueTone\":0,\"pop\":0,\"vignette\":0},\"filter\":{\"id\":\"none\",\"strength\":1},\"tools\":{\"sky\":{\"palette\":\"vivid\",\"strength\":0},\"colorFocus\":{\"strength\":0},\"portraitLight\":{\"x\":0.3,\"y\":0.25,\"strength\":0},\"blur\":{\"strength\":0,\"focus\":{\"x\":0.5,\"y\":0.5}}},\"advanced\":{\"exposure\":0,\"clarity\":0,\"dehaze\":0,\"levels\":{\"inBlack\":0,\"inWhite\":1,\"gamma\":1,\"outBlack\":0,\"outWhite\":1},\"curves\":{\"rgb\":[],\"r\":[],\"g\":[],\"b\":[]},\"hsl\":{\"red\":{\"h\":0,\"s\":0,\"l\":0},\"orange\":{\"h\":0,\"s\":0,\"l\":0},\"yellow\":{\"h\":0,\"s\":0,\"l\":0},\"green\":{\"h\":0,\"s\":0,\"l\":0},\"aqua\":{\"h\":0,\"s\":0,\"l\":0},\"blue\":{\"h\":0,\"s\":0,\"l\":0},\"purple\":{\"h\":0,\"s\":0,\"l\":0},\"magenta\":{\"h\":0,\"s\":0,\"l\":0}},\"grading\":{\"shadows\":{\"hue\":200,\"sat\":0},\"midtones\":{\"hue\":30,\"sat\":0},\"highlights\":{\"hue\":40,\"sat\":0},\"balance\":0,\"blending\":0.5},\"sharpen\":{\"amount\":0,\"radius\":1},\"noise\":0,\"grain\":0,\"vignette\":{\"amount\":0,\"midpoint\":0.5,\"roundness\":0,\"feather\":0.5}}}",
+  "describe": "Straighten +0.1°",
+  "describeIds": "Straighten +0.1°",
+  "isIdentity": false
+ }
+]
