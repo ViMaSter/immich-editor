@@ -52,7 +52,18 @@ class GpuSourceRegion {
   /// Rendered on the GPU (rather than decoded): row order may differ, see [GpuCaps]
   final bool renderTarget;
 
-  const GpuSourceRegion(this.image, this.originX, this.originY, this.scaleX, this.scaleY, {this.renderTarget = false});
+  /// Created for one tile; the renderer disposes it afterwards
+  final bool transient;
+
+  const GpuSourceRegion(
+    this.image,
+    this.originX,
+    this.originY,
+    this.scaleX,
+    this.scaleY, {
+    this.renderTarget = false,
+    this.transient = false,
+  });
 }
 
 /// One texture for the whole image (possibly downscaled)
@@ -416,8 +427,17 @@ class GpuRenderer {
         final scale = math.min(1.0, math.sqrt(fieldPixels / (w * h)));
         final fw = math.max(1, (w * scale).round());
         final fh = math.max(1, (h * scale).round());
+        // The proxy covers the whole photo: express its scale against the full source
+        final proxyRegion = await fieldSource.region(ui.Rect.fromLTWH(0, 0, fieldSource.width, fieldSource.height));
         final region = _prehalve(
-          await fieldSource.region(ui.Rect.fromLTWH(0, 0, source.width, source.height)),
+          GpuSourceRegion(
+            proxyRegion.image,
+            0,
+            0,
+            proxyRegion.image.width / source.width,
+            proxyRegion.image.height / source.height,
+            renderTarget: proxyRegion.renderTarget,
+          ),
           source.width,
           source.height,
           fw,
@@ -462,14 +482,11 @@ class GpuRenderer {
           final y1 = math.min(h, cy0 + ch + margin);
           final frame = _Frame(x1 - x0, y1 - y0, x0, y0, w, h, affine);
           final tileKeep = <ui.Image>[];
-          final region = _prehalve(
-            await source.region(_footprint(affine, x0, y0, x1, y1)),
-            source.width,
-            source.height,
-            w,
-            h,
-            tileKeep,
-          );
+          final sourceRegion = await source.region(_footprint(affine, x0, y0, x1, y1));
+          if (sourceRegion.transient) {
+            tileKeep.add(sourceRegion.image);
+          }
+          final region = _prehalve(sourceRegion, source.width, source.height, w, h, tileKeep);
           try {
             final image = await _walk(
               frame,
@@ -983,11 +1000,10 @@ class GpuRenderer {
         rgba[o + 3] = 255;
       }
     }
-    if (_curveCache.length > 8) {
-      for (final image in _curveCache.values) {
-        image.dispose();
-      }
-      _curveCache.clear();
+    if (_curveCache.length >= 16) {
+      // Forget the oldest; not disposed here because a render may still sample it (the
+      // garbage collector releases it once no picture references it)
+      _curveCache.remove(_curveCache.keys.first);
     }
     _curveCache[key] = await imageFromRgba(rgba, 1025, 4);
   }
