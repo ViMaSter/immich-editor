@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:immich_mobile/domain/services/timeline.service.dart';
+import 'package:immich_mobile/editor_photos/ui/edit_action.dart';
 import 'package:immich_mobile/extensions/build_context_extensions.dart';
 import 'package:immich_mobile/presentation/actions/action.dart';
 import 'package:immich_mobile/presentation/actions/delete.action.dart';
-import 'package:immich_mobile/presentation/actions/edit_asset.action.dart';
 import 'package:immich_mobile/presentation/actions/restore.action.dart';
 import 'package:immich_mobile/presentation/actions/share.action.dart';
 import 'package:immich_mobile/presentation/actions/upload.action.dart';
@@ -51,7 +51,8 @@ class ViewerBottomBar extends ConsumerWidget {
         if (!isInTrash) ...[
           ..._actionColumnButtons(context, ref, const [
             UploadAction(source: .viewer, showProgress: true),
-            EditAssetAction(source: .viewer),
+            // editor.photos editor; a long press opens Immich's own editor
+            EditorPhotosEditAction(source: .viewer),
           ]),
           if (asset.hasRemote) ImmichColorOverride(color: null, child: AddActionButton(originalTheme: originalTheme)),
         ],

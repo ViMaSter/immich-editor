@@ -98,6 +98,12 @@ String _stripExtension(String? name) {
   return cut.isEmpty ? 'photo' : cut;
 }
 
+/// A string field of a JSON object, or null
+String? _field(Object? obj, String key) {
+  final value = obj is Map ? obj[key] : null;
+  return value is String ? value : null;
+}
+
 typedef StepReporter = void Function(String step, [double? progress]);
 
 class EditsService {
@@ -126,7 +132,7 @@ class EditsService {
   Future<String> resolveOriginal(String assetId) async {
     final meta = await api.metadata(assetId);
     final pointer = meta[renderKey];
-    final originalId = prop(pointer, 'originalId');
+    final originalId = _field(pointer, 'originalId');
     if (originalId is String && originalId != assetId) {
       return originalId;
     }
@@ -137,7 +143,7 @@ class EditsService {
     final originalId = await resolveOriginal(assetId);
     final original = await api.asset(originalId);
     final edits = await editsOf(originalId);
-    final stackId = prop(original['stack'], 'id');
+    final stackId = _field(original['stack'], 'id');
     Json? stack;
     if (stackId is String) {
       try {
@@ -277,7 +283,7 @@ class EditsService {
 
       report('Stacking the new version');
       final fresh = await api.asset(originalId);
-      final currentPrimary = (prop(fresh['stack'], 'primaryAssetId') as String?) ?? originalId;
+      final currentPrimary = _field(fresh['stack'], 'primaryAssetId') ?? originalId;
       await api.createStack([renderedAssetId, currentPrimary]);
 
       final entry = <String, Object?>{
@@ -304,7 +310,7 @@ class EditsService {
           'replacedOriginalId': originalId,
         });
         final stacked = await api.asset(renderedAssetId);
-        final stackId = prop(stacked['stack'], 'id');
+        final stackId = _field(stacked['stack'], 'id');
         if (stackId is String) {
           Json? stack;
           try {
@@ -352,7 +358,7 @@ class EditsService {
       final rendered = edit['renderedAssetId']! as String;
       remaining = remaining.where((e) => e['id'] != edit['id']).toList();
       final original = await api.asset(originalId);
-      final stackId = prop(original['stack'], 'id');
+      final stackId = _field(original['stack'], 'id');
       if (stackId is String) {
         Json? stack;
         try {
@@ -399,7 +405,7 @@ class EditsService {
       throw const EditsException('No such edit');
     }
     final original = await api.asset(originalId);
-    final stackId = prop(original['stack'], 'id');
+    final stackId = _field(original['stack'], 'id');
     if (stackId is! String) {
       throw const EditsException('This photo has no versions');
     }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart' hide Store;
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:immich_mobile/data/store.dart';
+import 'package:immich_mobile/editor_photos/ui/settings_page.dart';
 import 'package:immich_mobile/extensions/build_context_extensions.dart';
 import 'package:immich_mobile/generated/translations.g.dart';
 import 'package:immich_mobile/providers/auth.provider.dart';
@@ -124,6 +125,14 @@ class _MobileLayout extends ConsumerWidget {
                 ],
         )
         .toList();
+    settings.add(
+      SettingsCard(
+        icon: Icons.auto_fix_high,
+        title: 'Editor',
+        subtitle: 'Suggested edits from editor.photos',
+        onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const EditorPhotosSettingsPage())),
+      ),
+    );
     settings.add(
       SettingsCard(
         icon: Icons.auto_awesome_outlined,

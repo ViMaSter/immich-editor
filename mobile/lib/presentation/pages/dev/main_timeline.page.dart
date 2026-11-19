@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:immich_mobile/editor_photos/ui/suggestions_row.dart';
 import 'package:immich_mobile/presentation/widgets/feature_message/feature_message_dialog.widget.dart';
 import 'package:immich_mobile/presentation/widgets/memory/memory_lane.widget.dart';
 import 'package:immich_mobile/presentation/widgets/timeline/timeline.widget.dart';
@@ -40,9 +41,12 @@ class _MainTimelinePageState extends ConsumerState<MainTimelinePage> {
   @override
   Widget build(BuildContext context) {
     final hasMemories = ref.watch(memoryLaneProvider.select((state) => state.value?.isNotEmpty ?? false));
+    final hasSuggestions = ref.watch(suggestionsRowVisibleProvider);
     return Timeline(
-      topSliverWidget: const SliverToBoxAdapter(child: MemoryLane()),
-      topSliverWidgetHeight: hasMemories ? 200 : 0,
+      topSliverWidget: const SliverToBoxAdapter(
+        child: Column(mainAxisSize: MainAxisSize.min, children: [MemoryLane(), EditorSuggestionsRow()]),
+      ),
+      topSliverWidgetHeight: (hasMemories ? 200 : 0) + (hasSuggestions ? suggestionsRowHeight : 0),
       showStorageIndicator: true,
     );
   }

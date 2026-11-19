@@ -11,6 +11,7 @@ import 'package:immich_mobile/domain/services/hash.service.dart';
 import 'package:immich_mobile/domain/services/local_sync.service.dart';
 import 'package:immich_mobile/domain/services/log.service.dart';
 import 'package:immich_mobile/domain/services/sync_stream.service.dart';
+import 'package:immich_mobile/editor_photos/data/suggestions_store.dart';
 // ignore: library_prefixes
 import 'package:immich_mobile/entities/store.entity.dart' as dbStore;
 import 'package:immich_mobile/extensions/platform_extensions.dart';
@@ -127,6 +128,8 @@ class BackgroundWorkerBgService extends BackgroundWorkerFlutterApi {
     final hashTimeout = Duration(minutes: _isBackupEnabled ? 3 : 6);
     final backupTimeout = maxMinutes != null ? Duration(minutes: maxMinutes - 1) : null;
     await _optimizeDB();
+    // editor.photos: refresh suggested edits when the last fetch is older than 24 h
+    await SuggestionsStore.refreshIfDue().timeout(const Duration(minutes: 1), onTimeout: () {});
     return _backgroundLoop(
       hashTimeout: hashTimeout,
       backupTimeout: backupTimeout,
@@ -144,6 +147,7 @@ class BackgroundWorkerBgService extends BackgroundWorkerFlutterApi {
       // Only for Background Processing tasks
       if (maxSeconds == null) {
         await _optimizeDB();
+        await SuggestionsStore.refreshIfDue().timeout(const Duration(minutes: 1), onTimeout: () {});
       }
 
       // Run sync local, sync remote, hash and backup concurrently so the bg
