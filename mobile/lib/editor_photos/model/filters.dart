@@ -119,7 +119,14 @@ const learnedPresets = <LearnedPreset>[
     id: 'learned-enhance',
     name: 'Gentle enhance',
     share: 10 / 35,
-    adjust: {'pop': 0.12, 'saturation': 0.12, 'shadows': 0.07, 'contrast': 0.08, 'highlights': -0.04, 'skinTone': -0.07},
+    adjust: {
+      'pop': 0.12,
+      'saturation': 0.12,
+      'shadows': 0.07,
+      'contrast': 0.08,
+      'highlights': -0.04,
+      'skinTone': -0.07,
+    },
   ),
   LearnedPreset(
     id: 'learned-blue-sky',

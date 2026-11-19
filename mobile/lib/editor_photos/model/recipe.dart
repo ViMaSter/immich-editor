@@ -131,9 +131,7 @@ Map<String, Object?> normalizeRecipeJson(Object? input) {
     'palette': palette is String && skyPalettes.contains(palette) ? palette : 'vivid',
     'strength': jsonNum(roundTo(clampD(numOr(prop(sky, 'strength')), 0, 1), 2)),
   };
-  tools['colorFocus'] = {
-    'strength': jsonNum(roundTo(clampD(numOr(prop(prop(t, 'colorFocus'), 'strength')), 0, 1), 2)),
-  };
+  tools['colorFocus'] = {'strength': jsonNum(roundTo(clampD(numOr(prop(prop(t, 'colorFocus'), 'strength')), 0, 1), 2))};
   tools['portraitLight'] = {
     'x': jsonNum(roundTo(clampD(numOr(prop(pl, 'x'), 0.3), 0, 1), 3)),
     'y': jsonNum(roundTo(clampD(numOr(prop(pl, 'y'), 0.25), 0, 1), 3)),

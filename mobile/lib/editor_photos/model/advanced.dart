@@ -26,9 +26,7 @@ Map<String, Object?> normalizeAdvancedJson(Object? input) {
   final x = input is Map ? input : const <String, Object?>{};
   List<List<num>> points(Object? list) {
     final source = list is List ? list.take(16).toList() : const <Object?>[];
-    final mapped = source
-        .map((p) => [_r3(_clampA(item(p, 0), 0, 1)), _r3(_clampA(item(p, 1), 0, 1))])
-        .toList();
+    final mapped = source.map((p) => [_r3(_clampA(item(p, 0), 0, 1)), _r3(_clampA(item(p, 1), 0, 1))]).toList();
     // Array.prototype.sort is stable, so is List.sort with this merge sort
     _stableSort(mapped, (p, q) => (p[0] - q[0]).sign.toInt());
     final out = <List<num>>[];
