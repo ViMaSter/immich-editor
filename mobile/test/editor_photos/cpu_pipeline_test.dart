@@ -147,7 +147,7 @@ void main() {
       expect(jsHypot(double.nan, double.infinity), double.infinity);
     });
 
-    test('8-bit conversions keep the web quirks', () {
+    test('previews and saves round to the same 8-bit values', () {
       final rgba = Uint8List.fromList([for (var i = 0; i < 16 * 4; i++) i % 4 == 3 ? 255 : (i * 37) % 256]);
       final img = fromRgba8(rgba, 4, 4);
       expect(img.data[0], 0);
@@ -157,15 +157,15 @@ void main() {
       for (var p = 0; p < 16; p++) {
         expect(rgb.sublist(p * 3, p * 3 + 3), rgba.sublist(p * 4, p * 4 + 3));
       }
-      // toRGBA8 (previews) adds 0.5 before a Uint8ClampedArray store, which rounds rather
-      // than truncates: values come back the same or one step brighter, depending on the dither
-      final back = toRgba8(img);
-      var brighter = 0;
-      for (var i = 0; i < back.length; i++) {
-        expect(back[i] - rgba[i], inInclusiveRange(0, 1));
-        brighter += back[i] - rgba[i];
+      // toRGBA8 (previews) gives exactly the same pixels
+      expect(toRgba8(img), rgba);
+      // and so does a value off the 8-bit grid, through the dither
+      final grey = RgbImage(4, 4)..data.fillRange(0, 48, 0.3);
+      final saved = toRgb8(grey);
+      final shown = toRgba8(grey);
+      for (var p = 0; p < 16; p++) {
+        expect(shown.sublist(p * 4, p * 4 + 3), saved.sublist(p * 3, p * 3 + 3));
       }
-      expect(brighter, greaterThan(0));
     });
   });
 

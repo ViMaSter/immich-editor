@@ -95,7 +95,7 @@ final Float64List _bayer = Float64List.fromList([
   for (final v in const [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5]) (v + 0.5) / 16 - 0.5,
 ]);
 
-/// `toRGBA8`: 8-bit RGBA with the Bayer dither, rounded like a Uint8ClampedArray store
+/// `toRGBA8`: 8-bit RGBA with the Bayer dither, rounded exactly like [toRgb8]
 Uint8List toRgba8(RgbImage img, [Uint8List? out]) {
   final width = img.width;
   final data = img.data;
@@ -104,9 +104,9 @@ Uint8List toRgba8(RgbImage img, [Uint8List? out]) {
     final row = (y & 3) * 4;
     for (var x = 0; x < width; x++, j += 3, i += 4) {
       final dither = _bayer[row + (x & 3)];
-      result[i] = uint8Clamp(data[j] * 255 + dither + 0.5);
-      result[i + 1] = uint8Clamp(data[j + 1] * 255 + dither + 0.5);
-      result[i + 2] = uint8Clamp(data[j + 2] * 255 + dither + 0.5);
+      result[i] = uint8Clamp(jsRound(data[j] * 255 + dither));
+      result[i + 1] = uint8Clamp(jsRound(data[j + 1] * 255 + dither));
+      result[i + 2] = uint8Clamp(jsRound(data[j + 2] * 255 + dither));
       result[i + 3] = 255;
     }
   }

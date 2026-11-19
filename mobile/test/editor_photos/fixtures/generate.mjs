@@ -248,7 +248,7 @@ const clamp01 = v => Math.min(1, Math.max(0, v));
 // 72×48 test scene: sky gradient with a cloud (rows 0–11), grey ramp | hue sweep (12–23),
 // colour patches incl. skin, sky, foliage (24–35), a "portrait" (skin disc on dark, sharp
 // vertical edge, near-black/white columns) (36–45) and dyadic values that hit the
-// Uint8ClampedArray rounding ties of toRGBA8 (46–47)
+// rounding ties of toRGBA8/toRGB8 (46–47)
 const SW = 72;
 const SH = 48;
 const source = createImage(SW, SH);
